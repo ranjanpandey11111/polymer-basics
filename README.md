@@ -1,10 +1,6 @@
 # &lt;hello-world&gt;
 
 > A Web Component example using [Polymer](http://www.polymer-project.org/).
->
-## Demo
-
-[Check it live!](http://webcomponents.github.io/hello-world-polymer)
 
 ## Install
 
@@ -51,3 +47,4 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
     ```sh
     $ polyserve
     ```
+4. for any concern contact me on facebook page [Bharat With RKP(https://www.facebook.com/Realnationalhero/):
