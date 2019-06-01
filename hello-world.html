@@ -1,0 +1,29 @@
+<!-- Imports polymer -->
+<link rel="import" href="../polymer/polymer.html">
+
+<!-- Defines element markup -->
+<dom-module id="hello-world" name="ranjan" attributes="name">
+    <template>
+        <p>Hello <strong>{{who}} {{name}}</strong> :)</p>
+        <h1>Sandard header</h1>
+        <style>
+        h1 {
+            font-family: sans-serif;
+            text-shadow: 1px 1px 3px
+        }
+        </style>
+    </template>
+</dom-module>
+
+<!-- Registers custom element -->
+<script>
+Polymer({
+    is: 'hello-world',
+    properties: {
+        who: {
+            type: String,
+            value: 'World'
+        }
+    }
+});
+</script>
